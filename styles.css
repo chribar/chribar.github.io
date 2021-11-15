@@ -4,18 +4,39 @@ body {
 }
 
 .assignment {
+    width: 22%;
     background:rgb(211, 140, 211);
-    display: flex;
     padding: 10px;
     margin: 10px;
+}
+
+.assignments {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .assignment img {
     width: 200px;
     padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+}
+.assignment img:hover {
+    border: 2px solid white;
 }
 
 h1 {
-    color:rgb(0, 168, 235);
+    color:black;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
 }
